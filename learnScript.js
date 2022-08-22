@@ -28,7 +28,7 @@ function checkValue() {
         startInput.value = startInput.value.replace(char, "");
     }
     
-    if (clickedEl != null {
+    if (clickedEl != null) {
             clickedEl.style.backgroundColor = "#30c758";
         }
 
