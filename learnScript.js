@@ -28,7 +28,9 @@ function checkValue() {
         startInput.value = startInput.value.replace(char, "");
     }
     else {
-        clickedEl.style.backgroundColor = "#30c758";
+        if (clickedEl != null {
+            clickedEl.style.backgroundColor = "#30c758";
+        }
     }
 
     if (startInput.value.length == 10) {
