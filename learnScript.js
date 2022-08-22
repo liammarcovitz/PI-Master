@@ -27,10 +27,11 @@ function checkValue() {
     if (isNaN(char)) {
         startInput.value = startInput.value.replace(char, "");
     }
-    
-    if (clickedEl != null) {
+    else {
+        if (clickedEl != null) {
             clickedEl.style.backgroundColor = "#30c758";
         }
+    }
 
     if (startInput.value.length == 10) {
         clickedEl = null;
