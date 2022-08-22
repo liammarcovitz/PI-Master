@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI Master - Learn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+</head>
+<body>
+    <h2 id="bar">
+        <div id="links">
+            <a id="link" href="index.html">Home</a>
+            <a id="link" href="PI.html">What is PI?</a>
+            <strong><a id="link" href="learn.html">Learn</a></strong>
+            <a id="link" href="method.html">Method</a>
+            <a id="link" href="about.html">About</a>
+        </div>
+    </h2>
+
+    <div id="text">
+
+        <h1 id="learnTitle" class="mainTitle">Learn</h3>
+
+        <p class="mainText" id="selectText">Select digits...</p>
+
+        <p id="learnPi">3.<strong id="pi1">1415926535</strong> <strong id="pi2">8979323846</strong> 
+            <strong id="pi3">2643383279</strong> <strong id="pi4">5028841971</strong>
+            <strong id="pi5">6939937510</strong> <strong id="pi6">5820974944</strong> 
+            <strong id="pi7">5923078164</strong> <strong id="pi8">0628620899</strong> 
+            <strong id="pi9">8628034825</strong> <strong id="pi10">3421170679</strong>
+        </p>
+        <div id="jsEl">
+
+        <p class="mainText" id="secondText">Or enter your own:</p>
+        <input type="text" id="yourOwn" maxlength="10">
+
+        </div>
+        <button onclick="launchButtonClick()" id="launchButton">Start</button>
+
+    </div>
+
+    <script type="text/javascript" src="learnScript.js"></script>
+</body>
+</html>
